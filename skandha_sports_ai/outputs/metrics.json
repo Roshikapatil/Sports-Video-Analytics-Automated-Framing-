@@ -1,0 +1,168 @@
+{
+  "tasks_run": [
+    1,
+    2,
+    3
+  ],
+  "model": "yolov8s.pt",
+  "tracker": "bytetrack.yaml",
+  "conf": 0.35,
+  "imgsz": 960,
+  "device": "cpu",
+  "frames_expected": 705,
+  "frames_processed": 705,
+  "all_frames_processed": true,
+  "source_fps": 25.0,
+  "resolution": "768x432",
+  "loop_time_s": 837.4600854,
+  "pipeline_fps": 0.8418311657961197,
+  "detector_tracker_time_s": 793.9421920999785,
+  "detector_tracker_fps": 0.8879739696605288,
+  "encode_time_s": 0.3023980999996638,
+  "encoders": {
+    "task1": "mp4v",
+    "task2": "mp4v",
+    "crop_overlay": "mp4v",
+    "virtual": "mp4v"
+  },
+  "outputs": {
+    "task1": "D:\\skandha_submission\\skandha_sports_ai\\outputs\\task1_tracking.mp4",
+    "task2": "D:\\skandha_submission\\skandha_sports_ai\\outputs\\task2_analytics.mp4",
+    "crop_overlay": "D:\\skandha_submission\\skandha_sports_ai\\outputs\\task3_crop_overlay.mp4",
+    "virtual": "D:\\skandha_submission\\skandha_sports_ai\\outputs\\final_virtual_camera.mp4"
+  },
+  "coa_mode_counts": {
+    "players median": 656,
+    "ball+players": 49
+  },
+  "ball_decision_counts": {
+    "no ball detected": 645,
+    "reliable": 49,
+    "low confidence": 11
+  },
+  "reliable_ball_frames": 49,
+  "frames_with_any_ball_detection": 60,
+  "frames_without_coa": 0,
+  "track_stats": {
+    "unique_person_ids": 117,
+    "short_lived_ids_lt_25_frames": 46,
+    "suspected_id_switches_heuristic": 30,
+    "frames_without_players": 0,
+    "mean_players_per_frame": 11.990070921985815,
+    "max_players_in_frame": 17
+  },
+  "suspected_switch_events": [
+    [
+      25,
+      13,
+      20
+    ],
+    [
+      34,
+      11,
+      30
+    ],
+    [
+      35,
+      20,
+      31
+    ],
+    [
+      96,
+      73,
+      115
+    ],
+    [
+      119,
+      7,
+      126
+    ],
+    [
+      146,
+      131,
+      155
+    ],
+    [
+      149,
+      131,
+      161
+    ],
+    [
+      161,
+      131,
+      181
+    ],
+    [
+      184,
+      5,
+      197
+    ],
+    [
+      229,
+      223,
+      237
+    ],
+    [
+      236,
+      181,
+      242
+    ],
+    [
+      236,
+      237,
+      243
+    ],
+    [
+      238,
+      2,
+      245
+    ],
+    [
+      285,
+      283,
+      290
+    ],
+    [
+      291,
+      283,
+      312
+    ],
+    [
+      304,
+      312,
+      347
+    ],
+    [
+      383,
+      364,
+      467
+    ],
+    [
+      388,
+      347,
+      472
+    ],
+    [
+      391,
+      345,
+      474
+    ],
+    [
+      391,
+      345,
+      475
+    ]
+  ],
+  "virtual_camera": {
+    "mode": "vertical_9_16",
+    "alpha": 0.1,
+    "crop_size": [
+      242,
+      432
+    ],
+    "output_size": [
+      242,
+      432
+    ]
+  }
+}
